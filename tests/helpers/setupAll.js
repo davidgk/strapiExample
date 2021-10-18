@@ -3,7 +3,7 @@ const http = require("http");
 let instance
 const getStrapi = async () =>  {
   try {
-    if(! instance) {
+    if(!instance) {
       let strapi1 = Strapi();
       /** the following code is copied from `./node_modules/strapi/lib/Strapi.js` */
       await strapi1.load();
