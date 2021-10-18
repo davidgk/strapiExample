@@ -17,3 +17,6 @@ afterAll(async done => {
 it('strapi is defined',  () => {
   expect(getStrapi()).toBeDefined();
 });
+
+
+
